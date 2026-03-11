@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>About Me | Portfolio Ana</title>
     @vite('resources/css/app.css')
 </head>
 <body class="bg-gradient-to-b from-gray-500 via-gray-800 to-gray-900 text-white font-sans min-h-screen relative">
@@ -12,6 +12,7 @@
         <ul class="flex gap-8 text-sm font-bold uppercase tracking-widest">
             <li><a href="/" class="hover:text-yellow-500 transition duration-300">Home</a></li>
             <li><a href="/about" class="text-yellow-500 border-b-2 border-yellow-500 pb-1">About</a></li>
+            <li><a href="/contact" class="hover:text-yellow-500 transition duration-300">Contact</a></li>
         </ul>
     </nav>
 
@@ -66,13 +67,12 @@
                         <p class="text-2xl mb-6">
                             <span class="text-yellow-500 font-extrabold">Pens</span> <span class="text-white">Joss</span>
                         </p>
-                        <a href="#" class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-10 rounded-full uppercase text-xs tracking-widest transition duration-300 inline-block shadow-xl">
-                            Done
+                        <a href="/contact" class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-10 rounded-full uppercase text-xs tracking-widest transition duration-300 inline-block shadow-xl">
+                            Hire Me
                         </a>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
